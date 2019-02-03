@@ -109,7 +109,6 @@ def main(apikey, interval):
 
         run_log.flush()
         T = time() - T
-        print(T)
         sleep(interval * 60 - T)
 
 
