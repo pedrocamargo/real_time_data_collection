@@ -11,7 +11,6 @@ Everything has been tested on **Python 3.6**
 To call these scripts, the calls look like the following
 
 ## JCDecaux bike data
-bla bla bla
 
 ### For a single city
 
@@ -39,7 +38,6 @@ To download the data, the python call is the following
 INTERVAL is the pause between queries (in minutes) 
  
 ## Brisbane Traffic data
-bla bla bla
 
 To download the data, the python call is the following
 
