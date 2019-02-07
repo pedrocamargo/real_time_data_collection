@@ -109,7 +109,7 @@ def main(apikey, interval):
 
         run_log.flush()
         T = time() - T
-        sleep(interval * 60 - T)
+        sleep(max(interval * 60 - T, 1))
 
 
 if __name__ == '__main__':
