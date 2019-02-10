@@ -42,7 +42,7 @@ def main(interval):
 
     output_file, db, cur, wildcards = create_connection_and_table(time())
     while True:
-
+        T = time()
         t = time()
         if output_file != get_output_name(t):
             db.close()
@@ -89,7 +89,8 @@ def main(interval):
             print('\nFAILURE on {}'.format(tm))
             run_log.write('\nSome error at: {}'.format(tm))
         run_log.flush()
-        sleep(interval * 60)
+        T = time() - T
+        sleep(max(interval * 60 - T, 1))
 
 
 if __name__ == '__main__':
