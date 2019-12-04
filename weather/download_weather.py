@@ -5,7 +5,7 @@ import sys
 try:
     import pip
 
-    for p in ['requests', 'pandas', 'yaml']:
+    for p in ['requests', 'pandas', 'pyaml']:
         pip.main(['install', p])
 except:
     print("pip not available")
