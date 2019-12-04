@@ -23,6 +23,7 @@ import json
 
 
 def main(apikey, interval):
+    interval = float(interval)
     if interval <=1:
         interval = 1
 
