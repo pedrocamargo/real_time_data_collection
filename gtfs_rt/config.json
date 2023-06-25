@@ -1,0 +1,5 @@
+{
+  "dbname": "brisbane",
+  "trip_update_url": "https://gtfsrt.api.translink.com.au/api/realtime/SEQ/TripUpdates",
+  "veh_position_url": "https://gtfsrt.api.translink.com.au/api/realtime/SEQ/VehiclePositions"
+}

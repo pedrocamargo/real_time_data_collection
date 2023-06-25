@@ -1,6 +1,4 @@
-FROM python:3.6
+FROM python:3.11
 
 RUN \
-  pip3 install pandas && \
-  pip3 install requests && \
-  pip install gtfs-realtime-bindings
+  pip install -r requirements.txt
